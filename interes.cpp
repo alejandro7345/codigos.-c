@@ -3,23 +3,23 @@ using namespace std;
 
 int main() {
    
-    double monto_prestamo;
-    int num_meses;
+    double montoprestamo;
+    int nummeses;
 
     cout << "Ingrese el monto del prestamo: ";
-    cin >> monto_prestamo;
+    cin >> montoprestamo;
 
     cout << "Ingrese el numero de meses: ";
-    cin >> num_meses;
+    cin >> nummeses;
 
    
-    double tasa_interes_mensual = 0.02;
-    double interes_mensual = monto_prestamo * tasa_interes_mensual;
-    double interes_total = interes_mensual * num_meses;
+    double tasa_interesmensual = 0.02;
+    double interesmensual = monto_prestamo * tasainteresmensual;
+    double interestotal = interesmensual * nummeses;
 
 
-    cout << "El interes mensual es: " << interes_mensual << " dolares" << endl;
-    cout << "El interes total a pagar es: " << interes_total << "dolares" << endl;
+    cout << "El interes mensual es: " << interesmensual << " dolares" << endl;
+    cout << "El interes total es: " << interestotal << " dolares" << endl;
 
     return 0;
 }
