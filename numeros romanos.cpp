@@ -9,11 +9,11 @@ int main(){
 	cout<<"Digite un numero: "; 
 	cin>>numero; 
 	
-	unidades = numero%10; numero /= 10; //unidades = 2 , numero = 215
-	decenas = numero%10; numero /= 10; //decenas = 5 , numero = 21
-	centenas = numero % 10; numero /= 10; //centenas = 1 , numero = 2
-	millar = numero % 10 ; numero /= 10; //millar = 2 , numero = 0
-	//2000+100+50+2 = 2152
+	unidades = numero%10; numero /= 10; 
+	decenas = numero%10; numero /= 10;
+	centenas = numero % 10; numero /= 10;
+	millar = numero % 10 ; numero /= 10; 
+	
 	
 	switch(millar){
 		case 1: cout<<"M";break;
