@@ -14,7 +14,7 @@ LRESULT CALLBACK WindowProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam) 
 
             
 
-            // Crear un Botón
+            // Crear un BotÃ³n
             CreateWindow("BUTTON", "Aceptar", WS_VISIBLE | WS_CHILD | BS_DEFPUSHBUTTON,
                 85, 100, 100, 50, hwnd, (HMENU)1, NULL, NULL);
             break;
